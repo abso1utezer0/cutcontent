@@ -1,0 +1,366 @@
+/* Ryan Koop - 2021
+* Main CSS
+* Font by Ubuntu - https://ubuntu.com/legal/font-licence */
+
+::-webkit-scrollbar {
+    background-image: linear-gradient(to left, #4f2780, #a702ad);
+    width: 2vw;
+}
+
+::-webkit-scrollbar-button {
+    background: #410241;
+    width: 2vw;
+    height: 5vh
+}
+
+::-webkit-scrollbar-button:decrement {
+    background: #410241;
+    width: 2vw;
+    color: red;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: linear-gradient(to top, #26012c, #6b497b)
+}
+
+::-webkit-scrollbar-button:increment {
+    background: #410241;
+    width: 2vw;
+    color: red;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: linear-gradient(to bottom, #26012c, #6b497b)
+}
+
+::-webkit-scrollbar-thumb {
+    background: mediumpurple;
+    width: 2vw;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #da00ff, #a033c1, #750dce);
+    transition: 0.35s;;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: mediumpurple;
+    width: 2vw;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #ba00d9, #8a2da7, #650cb1)
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: mediumpurple;
+    width: 2vw;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #9700b1, #76288e, #580b9a)
+}
+
+.banner1 {
+    text-align:center;
+    margin-top:50px;
+    background: purple;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:20px;
+    background-image: linear-gradient(to bottom right, #460152, #7c00b4);
+}
+
+.banner2 {
+    text-align:center;
+    background:#330560;
+    padding:20px;
+    border-radius:20px;
+}
+
+.banner3 {
+    text-align: left;
+    margin-top:5px;
+    background:purple;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:10px;
+    background-image: linear-gradient(to bottom right, #26012c, #6b497b);
+    font-size: 1em;
+    max-width: 25em;
+    padding-left: 1em;
+}
+
+html {
+  min-height: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  background-image: linear-gradient(to bottom right, #270055, #520055);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: 0.35s;
+}
+
+body {
+  color: #caadff;
+  font-family: 'Ubuntu', sans-serif;
+  transition: 0.35s;
+}
+
+.logo {
+  height: 5.5em;
+  transition: 0.25s;
+  margin-left: 2%;
+  margin-top: -20px;
+  margin-bottom: -3%;
+  margin-right: 2%;
+  position: fixed;
+  z-index:99;
+}
+
+.logo:hover {
+  filter: drop-shadow(0px 0px 20px #4444dd);
+}
+
+.logo:active {
+  filter: drop-shadow(0px 0px 20px #de7bff);
+}
+
+.topbarbutton {
+  color: #cacffe;
+  background-image: linear-gradient(to top, #4f2780, #a702ad);
+  border-radius: 20px;
+  font-size: 200%;
+  text-decoration: none;
+  padding: 0.2em;
+  transition: 0.35s;
+  min-width: 125px;
+  position: fixed;
+  text-align: center;
+  z-index:99;
+}
+
+.topbarbutton:hover {
+  background-image: linear-gradient(to top, #830088, #4f2780);
+  color: #dd91ff;
+  border-width: 0.5px;
+  border-color: purple;
+  border-style: solid;
+}
+
+.p {
+  font-size: 150%;
+}
+
+.coverart {
+  height: 10em;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: thick;
+  float: left;
+}
+
+.game {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom right, #460152, #7c00b4);
+  border-radius: 30px;
+  margin-top: 40px;
+  color: purple;
+  min-height: 14em;
+  transition: 0.35s;
+}
+
+.gametext {
+  text-decoration: none;
+  color: #cacffe;
+  text-align: center;
+  transition: 0.35s;
+}
+
+.game:active {
+  color: mediumpurple;
+  text-decoration: none;
+  transition: 0.35s;
+}
+
+.game:hover {
+  color: rebeccapurple;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom right, #8d2a9d, #6c00b4);
+  transition: 0.35s;
+}
+
+.game:visited {
+  color: purple;
+  text-decoration: none;
+  transition: 0.35s;
+}
+
+.dropbtn {
+  background-image: linear-gradient(to top, #4f2780, #a702ad);
+  color: #cacffe;
+  padding: 0.2em;
+  font-size: 200%;
+  border: none;
+  border-radius: 20px;
+  transition: 0.35s;
+  position: fixed;
+  min-width: 125px;
+  max-width: 125px;
+  left: 60vw;
+  margin: 0, 0, 0, 0;
+  z-index:99;
+}
+
+.dropbtn:hover {
+    background-image: linear-gradient(to top, #830088, #4f2780);
+    border: solid;
+    border-width: 0.5px;
+    border-color: purple;
+    color: #dd91ff;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: 0.35s;
+  border-radius: 20px;
+  padding: 0;
+  position: fixed;
+  margin: 0, 0, 0, 0;
+  min-width: 125px;
+  max-width: 125px;
+  left: 60vw;
+  z-index:98;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #5b00a8;
+  min-width: 120px;
+  max-width: 120px;
+  z-index: 1;
+  transition: 0.35s;
+  border-radius: 20px;
+  padding: 2.5px;
+  top: 50px;
+}
+
+.dropdown-content a {
+  color: #cacffe;
+  padding: 0.2em;
+  text-decoration: none;
+  display: block;
+  transition: 0.35s;
+  border-radius: 20px;
+  text-align: center;
+  left: 60vw;
+}
+
+.dropdown-content a:hover {
+  background-color: #000053;
+  transition: 0.35s;
+  border-radius: 20px;
+  padding: 0.2em;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: 0.35s;
+  border-radius: 10px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #000053;
+  color: #dd91ff;
+  transition: 0.35s;
+  border-radius: 20px;
+  padding: 0.2em;
+}
+
+a:visited {
+    color: #cacffe;
+}
+
+a:hover {
+    color: #dd91ff;
+}
+
+.dropbtn1 {
+  background-image: linear-gradient(to top, #4f2780, #a702ad);
+  color: #cacffe;
+  padding: 0.2em;
+  font-size: 200%;
+  border: none;
+  border-radius: 20px;
+  transition: 0.35s;
+  position: fixed;
+  min-width: 125px;
+  max-width: 125px;
+  left: 78vw;
+  margin: 0, 0, 0, 0;
+  z-index:99;
+}
+
+.dropbtn1:hover {
+    background-image: linear-gradient(to top, #830088, #4f2780);
+    border: solid;
+    border-width: 0.5px;
+    border-color: purple;
+    color: #dd91ff;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  transition: 0.35s;
+  border-radius: 20px;
+  padding: 0;
+  position: fixed;
+  margin: 0, 0, 0, 0;
+  min-width: 125px;
+  max-width: 125px;
+  left: 78vw;
+  z-index:98;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #5b00a8;
+  min-width: 120px;
+  max-width: 120px;
+  z-index: 1;
+  transition: 0.35s;
+  border-radius: 20px;
+  padding: 2.5px;
+  top: 50px;
+}
+
+.dropdown-content1 a {
+  color: #cacffe;
+  padding: 0.2em;
+  text-decoration: none;
+  display: block;
+  transition: 0.35s;
+  border-radius: 20px;
+  text-align: center;
+  left: 80vw;
+}
+
+.dropdown-content1 a:hover {
+  background-color: #000053;
+  transition: 0.35s;
+  border-radius: 20px;
+  padding: 0.2em;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+  transition: 0.35s;
+  border-radius: 10px;
+}
+
+.dropdown1:hover .dropbtn {
+  background-color: #000053;
+  color: #dd91ff;
+  transition: 0.35s;
+  border-radius: 20px;
+  padding: 0.2em;
+}

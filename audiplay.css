@@ -1,0 +1,104 @@
+.ap_container {
+    text-align: center;
+	width: auto;
+	overflow: hidden;
+	padding: 5px;
+	background: linear-gradient(to bottom, rgba(15,78,132,1) 0%,rgba(26,27,119,1) 24%,rgba(82,2,107,1) 100%);
+	border-radius: 4px;
+    box-shadow: inset 0 0 6px #F6A8FF;
+    border-width: thin;
+	border-color: #F6A8FF;
+	border-style: solid;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 20px;
+}
+.ap_controls {
+	width: 100%;
+    display:  flex;
+	position: relative;
+    flex-direction: row;
+	font-size: large;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	cursor: pointer;
+	
+}
+
+.ap_controls span {
+	margin: 5px;
+	display: inline-block;
+}
+.ap_container .playpausebtn {
+    border-radius: 50%;
+    font-size: larger;
+    padding-top: 4.5px;
+}
+
+.ap_container  svg {
+    width: 25px;
+	height: 25px;
+}
+.ap_controls .duration {
+	width: 80%;
+	margin-right: 10px;
+	bottom: 4px;
+    padding-top: 4.5px;
+}
+.ap_controls input[type="range"] {
+	-webkit-appearance: none;
+	width: 95%;
+	outline: none;
+	height: 7.5px;
+	margin: 12px 0;
+	background: linear-gradient(to right, rgba(15,78,132,1) 0%,rgb(26, 61, 208) 24%,rgb(126, 10, 136) 100%);
+    border-image-source: linear-gradient(to bottom right, rgb(45, 102, 255) 0%,rgb(152, 68, 172) 100%);
+    border-style: solid;
+    border-image-slice: 1;
+    border-width: 3px;
+}
+.ap_controls:hover input[type="range"]::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	height: 35px;
+	width: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	background: rgb(43, 0, 111);
+    border: solid 2px #8b6fff;
+    box-shadow: 0 0 10px black;
+}
+.ap_controls input[type="range"]::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	height: 20px;
+	width: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	background: rgb(43, 0, 111);
+    border: solid 2px #8b6fff;
+    box-shadow: 0 0 10px black;
+    transition: height 100ms, width 100ms;
+}
+.ap_download {
+    padding-top: 4.5px;
+}
+.ap_download:hover {
+    filter: brightness(60%);
+    transition: filter 100ms;
+}
+.ap_download:active {
+    filter: brightness(25%);
+    filter: drop-shadow(0 0 7.5px white);
+}
+.ap_loop {
+    padding-top: 4.5px;
+}
+
+
+.ap_sound {
+	padding: 4px;
+}
+.ap_time {
+    position: relative;
+    display: inline;
+    padding-top: 12px;
+    font-family: Ubuntu;
+}

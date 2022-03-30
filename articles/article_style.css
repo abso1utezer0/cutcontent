@@ -1,0 +1,174 @@
+#tempwarning {
+	background-color: #FFCE00;
+	border-style: solid;
+	border-color: red;
+	text-align: center;
+	width: 10vw;
+	left: 45vw;
+	top: -2px;
+	position: absolute;
+}
+#article_index_container {
+	width: 90vw;
+	height: auto;
+	left: 5vw;
+	top: 15vh;
+	position: absolute;
+}
+.articletitle {
+    width: 70vw;
+    height: 100vh;
+    margin-left: 10vw;
+    margin-top: 1%;
+    margin-bottom: 0;
+    border-radius: 20px;
+}
+#articletitletext {
+	text-align: center;
+	font-size: 3vw;
+}
+.pagebuttons {
+	position: absolute;
+	width: 30vw;
+}
+#page1 {
+	top: 130px;
+	height: 200px;
+}
+#page2 {
+	top: 130px;
+	left: 30.5vw;
+	height: 200px;
+}
+#page3 {
+	top: 340px;
+	height: 200px;
+}
+#page4 {
+	top: 340px;
+	left: 30.5vw;
+	height: 200px;
+}
+#timeline {
+	top: 130px;
+	left: 61vw;
+	height: 410px;
+	width: 28.5vw;
+}
+.pagetitletext {
+	margin: 15px;
+	font-size: 2em;
+	text-align: center;
+    hyphens: auto;
+}
+.pagecontenttext {
+	margin: 15px;
+    font-size: 1.6vw;
+}
+.articlepagetitle {
+    margin-left: 5vw;
+    text-shadow: 2px 2px 0 black;
+}
+.articlepagehr {
+    margin-left: 5vw;
+}
+.articlepagecontent {
+    margin-left: 5vw;
+    font-size: 0.9em;
+    hyphens: auto;
+    width: 90vw;
+    text-shadow: 2px 2px 0 black;
+    margin: 0 0 0 5vw;
+}
+.disclaimer {
+    width: 75vw;
+	height: 10vh;
+    margin-left: 12.5vw;
+    box-shadow: 0 0 15px black;
+    margin-top: 10px;
+}
+.disclaimertext {
+    position: relative;
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 60vw;
+    font-size: 2vh;
+    min-height: 10vh;
+    text-shadow: 0 0 10px #0b0217;
+}
+.disclaimersymbol {
+    float: right;
+    margin-right: 10px;
+    font-size: 6vh;
+    position: relative;
+    text-shadow: 0 0 20px #d069e8;
+    line-height: 1.95;
+    bottom: 15vh;
+}
+.articleimg {
+    margin: 10px;
+    max-width: 35vw;
+    min-width: 20vw;
+	height: 20vw;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-image-source: linear-gradient(to bottom right, #7921a0, #155d91);
+    box-shadow: 0 0 15px black;
+}
+.floatright {
+    float: right;
+    margin-right: 10vw;
+}
+.floatleft {
+    float: left;
+    margin-left: 10vw;
+}
+figure {
+    margin: 0;
+}
+figcaption {
+    position: static;
+    margin-top: -8px;
+    margin-left: calc(50% - 100px);
+    margin-right: calc(50% - 100px);
+    font-size: 0.7em;
+    color: darkgrey;
+    font-style: italic;
+    text-align: center;
+    width: 200px;
+    text-shadow: 2px 2px 0 black;
+    margin-bottom: 10px;
+}
+.articleindexhr {
+    width: 27vw;
+}
+#articleindextitlehr {
+    margin-left: -5vw;
+    margin-top: 0;
+}
+.vaultad {
+    text-shadow: 2px 2px 0 black;
+}
+.bottomhr {
+    margin-top: 5vh
+}
+sup a {
+	color: #27A4FF;
+}
+sup a:hover {
+	color: #146198;
+}
+.infoboxtext {
+	margin-left: -5px;
+}
+.infoimg {
+	margin-right: -5px;
+	float: right;
+	width: 50px;
+	height: auto;
+	margin-top: -5px;
+}
+.infoh3 {
+	line-height: 40px;
+}

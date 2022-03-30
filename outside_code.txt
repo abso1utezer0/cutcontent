@@ -1,0 +1,7 @@
+The following is a list of all code not created by me (Ryan Koop) with links to the projects.
+
+- Giscus [GitHub comment system]
+    ~ https://github.com/giscus/giscus
+
+- Audiplay [Audio player]
+    ~ https://github.com/SH20RAJ/AudiPlay
