@@ -9,6 +9,36 @@ html {
     margin-bottom: 40vh;
 	scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+    width: 1.5vw;
+}
+::-webkit-scrollbar-track {
+    background-image: linear-gradient(to bottom, #2d0343, #5f0071, #05306c);
+    border-left: solid #864b7d 0.5px;;
+}
+::-webkit-scrollbar-thumb {
+  background: #6d4380;
+  border: solid #a871a0 0.5px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4d356f;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #302260;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-button {
+    background-color: #925caa;
+    border: solid #a871a0 0.5px;
+}
+::-webkit-scrollbar-button:hover {
+    background: #4d356f;
+}
+::-webkit-scrollbar-button:active {
+    background: #302260;
+}
 body {
 	margin: 0;
 }
@@ -103,9 +133,14 @@ a:active {
     border-radius: 10px 0 0 10px;
     border: solid 1px #ed98d5;
     margin-top: -17px;
+	transition: filter 200ms;
 }
 .box3innerbox:hover img {
     box-shadow: 0 0 13px black;
+	filter: grayscale(100%);
+	filter: brightness(70%);
+	transition: filter 200ms;
+	z-index: -10;
 }
 .box3title {
 	font-size: 30px;
@@ -270,3 +305,140 @@ audio {
     list-style: none;
     font-size: 1.3em;
 }
+.news_article_content {
+  max-height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.news_article_content .read-more { 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  text-align: center; 
+  margin: 0;
+  padding: 30px 0;
+  background-image: linear-gradient(to bottom, transparent, black); 
+}
+.read-more > .button {
+	right: 10px;
+	bottom: 10px;
+}
+.news_article_content > p > iframe {
+    position: relative;
+	border: none;
+	width: 100%;
+    height: 500px;
+    overflow: visible;
+    margin-top: -20px;
+}
+.button {
+    position: absolute;
+    color: white;
+	background: rgb(33,0,36);
+	background: linear-gradient(to right, rgba(15,78,132,1) 0%,rgba(26,27,119,1) 24%,rgba(82,2,107,1) 100%);
+	border-width: thin;
+	border-color: #F6A8FF;
+	border-radius: 5px;
+	border-style: solid;
+	box-shadow: inset 0 0 5px #F6A8FF;
+	text-decoration: none;
+	padding: 1%;
+    transition: padding 200ms, left 200ms, box-shadow 200ms;
+}
+.button:hover {
+    padding: 1.5%;
+    box-shadow: inset 0 0 5px #F6A8FF, 0 0 7px black;
+    transition: padding 200ms, left 200ms, box-shadow 200ms;
+}
+code {
+	background-image: linear-gradient(to right, rgba(255,178,249,0.50), rgba(159,185,255,0.50));
+	font-size: 1.4em;
+	padding: 5px;
+	margin: 5px;
+	display: flex;
+	vertical-align: middle;
+	border-left: solid rgba(195,141,255,1.00) 7px;
+	color: rgba(255,255,255,1.00);
+	text-shadow: none;
+	font-family: monospace;
+}
+button {
+	background-color: rgba(24,18,55,1.00);
+	border: solid 2px white;
+	border-radius: 2px;
+	color: white;
+}
+
+/* MARKDOWN BEGIN (ALL BELOW SHOULD START WITH .markdown !!!) */
+.markdown * {
+    box-sizing: border-box;
+	display: block;
+}
+.markdown html, .markdown body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.markdown hr {
+    margin: 1em 0;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+.markdown blockquote {
+    margin-left: 0;
+    padding: 0.5em 0 0.5em 2em;
+    border-left: 3px solid rgb(211, 218, 234);
+}
+.markdown li, code {
+    margin: 0.4em 0;
+}
+.markdown li {
+    list-style: circle;
+}
+.markdown ul {
+    padding-left: 30px;
+    list-style: circle;
+    list-style-type: circle;
+    content: open-quote;
+}
+.markdown p {
+    margin: 0.9em 0;
+}
+.markdown code {
+    background: rgba(211, 218, 234, 0.25);
+}
+.markdown pre > code {
+    display: block;
+    padding: 0.5em 4em;
+}
+.markdown table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.markdown td {
+    padding: 4px 8px;
+}
+.markdown tr:nth-child(2n) {
+    background: #f3f3f3;
+}
+.markdown th {
+    border-bottom: 1px solid #aaa;
+}
+.markdown img {
+    max-width: 96px;
+}
+.markdown {
+    left: 50%;
+    padding: 0 0 0 12px;
+    overflow: auto;
+    font-family: -apple-system,BlinkMacSystemFont,SegoUI,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.3;
+}
+.plain {
+	display: none;
+}
+/* MARKDOWN END */
