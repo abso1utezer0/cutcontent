@@ -369,6 +369,9 @@ button {
 	border-radius: 2px;
 	color: white;
 }
+.bottombutton::before {
+    content: "";
+}
 
 /* MARKDOWN BEGIN (ALL BELOW SHOULD START WITH .markdown !!!) */
 .markdown * {
