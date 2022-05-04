@@ -39,3 +39,5 @@ text
 ## ok but smaller
 
 text under ok but smaller
+
+{% include audio.html src="/media/test/SoundHelix-Song-1.mp3" %}
