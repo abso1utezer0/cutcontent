@@ -1,2 +1,2 @@
 theme: jekyll-theme-midnight
-permalink: /articles/system/{{ post.system }}/:title/
+permalink: /articles/:categories/:title/
