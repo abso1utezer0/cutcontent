@@ -22,6 +22,7 @@ page3link: https://ask.com
 page3imagelink: https://cdnb.artstation.com/p/assets/images/images/004/456/215/large/wil-hughes-troll-face.jpg?1483926054
 page3imagealt: trollerier...
 disclaimer: malicious,missing_images,nonstandard,outside_links,plagurised,poorly_written,satire,stub
+categories: [wii,test]
 system: Wii
 ---
 
