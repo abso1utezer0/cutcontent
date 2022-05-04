@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Test LOL!
+title: test
 developer: me...
 devstart: 2007
 released: 2022
