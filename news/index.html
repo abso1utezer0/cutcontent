@@ -28,7 +28,7 @@
 		
 		<h1 class="textcentered">News</h1>
 		<hr>
-        <div class="news_article_content box3">
+        <div class="news_article_content box3" id="22aprilfirstarticle">
             <p>
   			<iframe src="2022/april/firstarticle.html" scrolling="no" onload="" >The news article could not be loaded.</iframe>
             </p>
@@ -62,12 +62,12 @@ $(".news_article_content .button").click(function() {
   
   // measure how tall inside should be by adding together heights of all iframes (there should only be one, but just in case...)
   $ps.each(function() {
-    totalHeight += $(this).outerHeight() + 120;
+    totalHeight += $(this).outerHeight();
   });
   
   $ps
     .css({
-      "height": totalHeight + 200
+      "height": totalHeight
   })
     
   $up
