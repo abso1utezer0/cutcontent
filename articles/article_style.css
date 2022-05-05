@@ -179,12 +179,12 @@ sup a:hover {
 .infoboxtext {
 	margin-left: -5px;
 }
-.infoimg {
+#infoimg {
 	margin-right: -5px;
 	float: right;
-	width: 50px;
 	height: auto;
-	margin-top: -50px;
+	position: absolute;
+	top: 15px;
 }
 .infoh3 {
 	line-height: 40px;
