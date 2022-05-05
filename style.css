@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 html {
-	font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 	color: white;
-    background-image: url("media/global/background.svg");
+    background-image: url("/media/global/background.svg");
 	background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: fixed;
     margin-bottom: 40vh;
 	scroll-behavior: smooth;
+  max-width: 100vw;
 }
 ::-webkit-scrollbar {
     width: 1.5vw;
@@ -277,7 +278,6 @@ hr {
     margin-bottom: 10px;
 }
 audio {
-	margin-left: calc(11vw - 40px);
 	width: 80vw;
 	background: linear-gradient(to bottom right, #060131, #3a0341);
 	border-radius: 10px;
