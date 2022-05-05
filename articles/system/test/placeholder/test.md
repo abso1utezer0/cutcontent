@@ -5,6 +5,8 @@ ogtitle: missing
 developer: me...
 devstart: 2007
 released: 2022
+infoimgpath: https://upload.wikimedia.org/wikipedia/commons/f/fb/718smiley.svg
+infoimgalt: awwseom face
 infotext: this is an AWWSOM description... NO ONE could ever create a BETTER ONE!!11!!
 page1title: a page...
 page1link: https://google.com
