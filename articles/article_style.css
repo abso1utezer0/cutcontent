@@ -182,9 +182,10 @@ sup a:hover {
 #infoimg {
 	margin-right: -5px;
 	float: right;
-	height: auto;
+	max-height: 200px;
 	position: absolute;
 	top: 15px;
+	right: 5vw;
 }
 .infoh3 {
 	line-height: 40px;
