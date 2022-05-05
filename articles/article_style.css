@@ -105,7 +105,7 @@
     line-height: 1.95;
     bottom: 15vh;
 }
-.articleimg {
+#articleimg {
     margin: 10px;
     max-width: 35vw;
     min-width: 20vw;
