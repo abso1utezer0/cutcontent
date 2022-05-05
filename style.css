@@ -42,7 +42,6 @@ html {
 }
 body {
 	margin: 0;
-	overflow: hidden;
 	max-width: calc(101.5vw + 2px);
 }
 p {
