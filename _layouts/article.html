@@ -32,46 +32,46 @@
 		</div>
 		
 		<!-- pages box -->
-    {% unless page.page1title == "" %}
+    {% if page.page1title %}
         <div class="box3 nodecoration">
             <h2 class="textcentered box3title">Pages</h2>
-            {% unless page.page1title == "" %}
+            {% if page.page1title %}
             <a href="{{ page.page1link }}">
                 <div class="box3innerbox">
                     <p>{{ page.page1title }}<img src="{{ page.page1imagelink }}" alt="{{ page.page1imagealt }}"></p>
                 </div>
             </a>
-            {% endunless %}
-            {% unless page.page2title == "" %}
+            {% endif %}
+            {% if page.page2title %}
             <a href="{{ page.page2link }}">
                 <div class="box3innerbox">
                     <p>{{ page.page2title }}<img src="{{ page.page2imagelink }}" alt="{{ page.page2imagealt }}"></p>
                 </div>
             </a>
-            {% endunless %}
-            {% unless page.page3title == "" %}
+            {% endif %}
+            {% if page.page3title %}
             <a href="{{ page.page3link }}">
                 <div class="box3innerbox">
                     <p>{{ page.page3title }}<img src="{{ page.page3imagelink }}" alt="{{ page.page3imagealt }}"></p>
                 </div>
             </a>
-            {% endunless %}
-            {% unless page.page4title == "" %}
+            {% endif %}
+            {% if page.page4title %}
             <a href="{{ page.page4link }}">
                 <div class="box3innerbox">
                     <p>{{ page.page4title }}<img src="{{ page.page4imagelink }}" alt="{{ page.page4imagealt }}"></p>
                 </div>
             </a>
-            {% endunless %}
-            {% unless page.page1title == "" %}
+            {% endif %}
+            {% if page.page5title %}
             <a href="{{ page.page5link }}">
                 <div class="box3innerbox">
                     <p>{{ page.page5title }}<img src="{{ page.page5imagelink }}" alt="{{ page.page5imagealt }}"></p>
                 </div>
             </a>
-            {% endunless %}
+            {% endif %}
         </div>
-    {% endunless %}
+    {% endif %}
 		
     {% if page.disclaimer contains 'malicious' %}
     <div class="disclaimer box1 smallradius1">
