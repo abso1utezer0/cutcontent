@@ -234,14 +234,12 @@ hr {
 }
 #pagebottombtn {
     position: absolute;
-    left: calc(50% - 7vw);
     color: white;
     box-shadow: inset 0 0 3px #F6A8FF, 0 0 5px black;
     transition: padding 200ms, left 200ms, box-shadow 200ms;
 }
 #pagebottombtn:hover {
     padding: 1.5%;
-    left: calc(50% - 7.5vw);
     box-shadow: inset 0 0 5px #F6A8FF, 0 0 7px black;
     transition: padding 200ms, left 200ms, box-shadow 200ms;
 }
