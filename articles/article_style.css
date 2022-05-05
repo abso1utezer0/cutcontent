@@ -61,9 +61,15 @@
 	text-align: center;
     hyphens: auto;
 }
-.pagecontenttext {
-	margin: 15px;
-    font-size: 1.6vw;
+#articlepagecontainer p{
+  font-size: 1.6vw;
+  text-shadow: 2px 2px 0 black;
+}
+#articlepagecontainer {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  width: 100vw;
+  hyphens: auto;
 }
 .articlepagetitle {
     margin-left: 5vw;
