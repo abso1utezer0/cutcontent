@@ -109,7 +109,6 @@
     margin: 10px;
     max-width: 35vw;
     min-width: 20vw;
-	height: 20vw;
     border: 10px solid;
     border-image-slice: 1;
     border-width: 4px;
@@ -165,9 +164,9 @@ sup a:hover {
 .infoimg {
 	margin-right: -5px;
 	float: right;
-	width: 50px;
 	height: auto;
-	margin-top: -5px;
+	position: absolute;
+	top: 15px;
 }
 .infoh3 {
 	line-height: 40px;
