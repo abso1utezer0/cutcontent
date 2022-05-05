@@ -29,7 +29,7 @@ disclaimer:
 
 ### Pirate Pete
 
-{% include image.html src="https://user-images.githubusercontent.com/83473579/167035317-891d2e59-0cef-488b-a846-a75c6b827611.png" full alt="Pirate Pete model" %}
+{% include image.html src='https://user-images.githubusercontent.com/83473579/167035317-891d2e59-0cef-488b-a846-a75c6b827611.png' full alt='Pirate Pete model' %}
 
 ### Dropwing
 
