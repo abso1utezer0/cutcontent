@@ -233,7 +233,6 @@ hr {
     text-decoration: none;
 }
 #pagebottombtn {
-    position: absolute;
     color: white;
     box-shadow: inset 0 0 3px #F6A8FF, 0 0 5px black;
     transition: padding 200ms, left 200ms, box-shadow 200ms;
