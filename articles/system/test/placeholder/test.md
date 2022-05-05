@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Test LOL!
+ogtitle: missing
 developer: me...
 devstart: 2007
 released: 2022
