@@ -78,37 +78,44 @@
         <p class="disclaimertext"><strong>Disclaimer</strong>: This article seems to be malicious. It could contain purposely incorrect information.</p>
         <div class="disclaimersymbol">&#128544;</div>
     </div>
-    {% elsif page.disclaimer contains 'missing_images' %}
+    {% endif %}
+    {% if page.disclaimer contains 'missing_images' %}
     <div class="disclaimer box1 smallradius1">
         <p class="disclaimertext"><strong>Disclaimer</strong>: This article seems to be missing an appropriate amount of images. Images should be added to places that seem baron.</p>
         <div class="disclaimersymbol">&#128444;&#65039;</div>
     </div>
+    {% endif %}
     {% elsif page.disclaimer contains 'nonstandard' %}
     <div class="disclaimer box1 smallradius1">
         <p class="disclaimertext"><strong>Disclaimer</strong>: This article uses nonstandard code. It should be reformatted with the default template to have it fit with other articles.</p>
         <div class="disclaimersymbol">&#9940;</div>
     </div>
-    {% elsif page.disclaimer contains 'outside_links' %}
+    {% endif %}
+    {% if page.disclaimer contains 'outside_links' %}
     <div class="disclaimer box1 smallradius1">
         <p class="disclaimertext"><strong>Disclaimer</strong>: This article links to outside websites. Anything that is linked is not endorsed by Cut Content and should be removed from the page later.</p>
         <div class="disclaimersymbol">&#9875;</div>
     </div>
-    {% elsif page.disclaimer contains 'plagurised' %}
+    {% endif %}
+    {% if page.disclaimer contains 'plagurised' %}
     <div class="disclaimer box1 smallradius1">
         <p class="disclaimertext"><strong>Disclaimer</strong>: This article contains plagurised writing. This is condemned by Cut Content and it's contributors. It will stay until it is rewritten. The writer has been banned from writing articles.</p>
         <div class="disclaimersymbol">&#128203;</div>
     </div>
-    {% elsif page.disclaimer contains 'poorly_written' %}
+    {% endif %}
+    {% if page.disclaimer contains 'poorly_written' %}
     <div class="disclaimer box1 smallradius1">
         <p class="disclaimertext"><strong>Disclaimer</strong>: This article very poorly written. Either multiple grammar, spelling, or formatting mistakes plague the entire article. Either fix the errors or rewrite the page.</p>
         <div class="disclaimersymbol">&#9999;&#65039;</div>
     </div>
-    {% elsif page.disclaimer contains 'satire' %}
+    {% endif %}
+    {% if page.disclaimer contains 'satire' %}
     <div class="disclaimer box1 smallradius1">
         <p class="disclaimertext"><strong>Disclaimer</strong>: This article is authorised satire. The contents are not meant to be taken seriously or as fact.</p>
         <div class="disclaimersymbol">&#128514;</div>
     </div>
-    {% elsif page.disclaimer contains 'stub' %}
+    {% endif %}
+    {% if page.disclaimer contains 'stub' %}
     <div class="disclaimer box1 smallradius1">
         <p class="disclaimertext"><strong>Disclaimer</strong>: This article is a stub. It contains little to no content.</p>
         <div class="disclaimersymbol">&#128207;</div>
