@@ -43,7 +43,7 @@ html {
 body {
 	margin: 0;
 	overflow: hidden;
-	max-width: 100vw;
+	max-width: calc(101.5vw + 2px);
 }
 p {
 	color: white;
