@@ -111,24 +111,35 @@
     line-height: 1.95;
     bottom: 15vh;
 }
-.articleimg {
+img[floatright],img[floatleft] {
     margin: 10px;
     max-width: 35vw;
     min-width: 20vw;
-	height: 20vw;
+    height: 20vw;
     border: 10px solid;
     border-image-slice: 1;
     border-width: 4px;
     border-image-source: linear-gradient(to bottom right, #7921a0, #155d91);
     box-shadow: 0 0 15px black;
 }
-.floatright {
+[floatright] {
     float: right;
     margin-right: 5vw;
 }
-.floatleft {
+[floatleft] {
     float: left;
     margin-left: 5vw;
+}
+[full] {
+    width: 65vw;
+    border: 4px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-image-source: linear-gradient(to bottom right, #7921a0, #155d91);
+    box-shadow: 0 0 15px black;
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 figure {
     margin: 0;
