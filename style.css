@@ -9,7 +9,6 @@ html {
 	scroll-behavior: smooth;
 	max-width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 ::-webkit-scrollbar {
     width: 1.5vw;
@@ -44,8 +43,8 @@ html {
 body {
 	margin: 0;
 	width: 100%;
-    overflow-x: hidden;
-	height: 110%;
+    	overflow-x: hidden;
+	height: 100%;
 	margin-bottom: 40vh;
 }
 p {
