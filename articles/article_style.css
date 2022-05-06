@@ -183,8 +183,9 @@ sup a:hover {
 	margin-right: -5px;
 	float: right;
 	max-height: 200px;
+	width: auto;
 	position: absolute;
-	top: 15px;
+	top: 400px;
 	right: 5vw;
 }
 .infoh3 {
