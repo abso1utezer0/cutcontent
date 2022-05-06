@@ -182,7 +182,7 @@ sup a:hover {
 	height: 200px;
 	width: auto;
 	position: absolute;
-	top: calc(20vh + 100px);
+	top: calc(10vh + 300px);
 	right: calc(2.5vw + 100px);
 	border: 10px solid;
     border-image-slice: 1;
