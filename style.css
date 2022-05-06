@@ -44,6 +44,7 @@ body {
 	margin: 0;
 	width: 100vw;
     	overflow-x: hidden;
+	overflow-y: hidden;
 	height: 100%;
 	margin-bottom: 40vh;
 }
