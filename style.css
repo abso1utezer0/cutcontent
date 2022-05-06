@@ -6,10 +6,10 @@ html {
 	background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-bottom: 40vh;
 	scroll-behavior: smooth;
 	max-width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 ::-webkit-scrollbar {
     width: 1.5vw;
@@ -45,8 +45,8 @@ body {
 	margin: 0;
 	width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
 	height: 110%;
+	margin-bottom: 40vh;
 }
 p {
 	color: white;
