@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		{% include head.html %}
+	</head>
+
+	<body>
+        <div id="topofpage"></div>
+		<!-- Navbar Start -->
+		
+    {% include nav.html %}
+    
+		<br>
+		
+		<!-- Navbar End-->
+		
+		
+		<!-- Page Start -->
+        
+    <div id="articlepagecontainer">
+            {{ content }}
+    </div>
+		
+		<!-- Page End -->
+		
+		
+		<!-- Footer Start-->
+        
+		{% include foot.html %}
+		
+		<!-- Footer End -->
+	</body>
+</html>
