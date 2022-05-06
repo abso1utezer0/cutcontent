@@ -1,12 +1,12 @@
 .banner {
-	position: fixed;
+	position: sticky;
 	top: 0;
 	z-index: 90;
 	width: 100vw;
 }
 .banner_back {
 	width: 100vw;
-	position: fixed;
+	position: sticky;
 	top: 0;
 	margin: 0;
 	z-index: 91;
@@ -14,7 +14,7 @@
 .chat_btn {
 	z-index: 92;
 	float: right;
-	position: fixed;
+	position: sticky;
 	margin-top: -5%;
 	margin-right: 2vw;
     border-radius: 10%;
@@ -38,7 +38,7 @@
 }
 .news_btn {
 	z-index: 93;
-	position: fixed;
+	position: sticky;
 	float: right;
 	margin-top: -5%;
 	margin-right: 2vw;
@@ -64,7 +64,7 @@
 }
 .vault_btn {
 	z-index: 94;
-	position: fixed;
+	position: sticky;
 	float: right;
 	margin-top: -5%;
 	margin-right: 2vw;
@@ -97,7 +97,7 @@
 
 .icon_btn {
 	z-index: 95;
-	position: fixed;
+	position: sticky;
 	float: left;
 	margin-top: -7%;
 	margin-left: 2vw;
@@ -123,7 +123,7 @@
 }
 .info_btn {
 	z-index: 95;
-	position: fixed;
+	position: sticky;
 	float: left;
 	margin-top: -7%;
 	margin-left: 10vw;
