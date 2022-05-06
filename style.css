@@ -43,7 +43,7 @@ html {
 }
 body {
 	margin: 0;
-	max-width: 105%;
+	width: calc(105% + 40px);
     overflow-x: hidden;
     overflow-y: hidden;
 	
