@@ -42,7 +42,7 @@ html {
 }
 body {
 	margin: 0;
-	max-width: calc(101.5vw + 2px);
+	width: 100vw;
 }
 p {
 	color: white;
