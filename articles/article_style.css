@@ -138,7 +138,7 @@ img[floatright],img[floatleft] {
     border-image-source: linear-gradient(to bottom right, #7921a0, #155d91);
     box-shadow: 0 0 15px black;
     display: block;
-    margin-left: calc(17.5vw);
+    margin-left: calc(12.5vw);
 }
 figure {
     margin: 0;
