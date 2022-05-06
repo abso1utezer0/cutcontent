@@ -30,13 +30,14 @@
       <td width="50%" style="vertical-align: top">
 		  <center><h2>Recent Articles</h2></center>
 		  <hr>
-        {% for page in site.docs limit:3 %}
-        {% if page.url contains "/articles/" %}
+	{% assign doclist = site.pages | sort: 'url'  %}
+        {% for doc in doclist limit:3 %}
+        {% if doc.url contains "/articles/system/" %}
         <div class="box3innerbox homeinnerbox">
 		    <center>
-        <a href="{{ page.url }}">
-			  <p style="margin-left: -30px">{{ page.title }} - {{ page.system }}</p>
-			  <img src="media/boxarts/articles/{{ page.coverartpath }}" style="float:right; margin-top:-103px;"/>
+        <a href="{{ site.baseurl }}{{ doc.url }}">
+			  <p style="margin-left: -30px">{{ doc.title }} - {{ doc.system }}</p>
+			  <img src="/media/boxarts/{{ doc.system }}/{{ doc.ogtitle }}.png" style="float:right; margin-top:-103px;"/>
 			  </a>
 		    </center>
 		    </div>
@@ -45,20 +46,17 @@
 		</td>
       <td style="vertical-align: top"><center><h2>Recent News</h2></center>
 		  <hr>
+	{% for doc in doclist limit:3 %}
+        {% if doc.url contains "/news/posts/" %}
 		  <div class="box3innerbox homeinnerbox">
 		  <center>
-		  	  <a href="news/index.html#22aprilfirstarticle">
-			  <p>First News Article - Ryan</p>
+		  	  <a href="{{ site.baseurl }}{{ doc.url }}">
+			  <p>{{ doc.title }} - {{ doc.author }}</p>
 			  </a>
 		  </center>
 		  </div>
-		  <div class="box3innerbox homeinnerbox">
-		  <center>
-		  	  <a href="news/index.html#22aprilfirstarticle">
-			  <p>fake news article - lol!</p>
-			  </a>
-		  </center>
-		  </div>
+	{% endif %}
+        {% endfor %}
 		</td>
     </tr>
     <tr class="box3" >
@@ -75,8 +73,7 @@
 		
 		<!-- Footer Start-->
 		
-		<!-- PLACEHOLDER!!! DO NOT FILL WITH CONTENT. The global import script does this later on. -->
-		<div id="foot-placeholder"></div>
+		{% include foot.html %}
 		
 		<!-- Footer End -->
 		
