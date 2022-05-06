@@ -179,9 +179,8 @@ sup a:hover {
 	margin-left: -5px;
 }
 #infoimg {
-	max-height: 200px;
-	max-width: none;
-	min-width: none;
+	height: 200px;
+	width: auto;
 	position: absolute;
 	top: 40vh;
 	right: calc(2.5vw + 100px);
