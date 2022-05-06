@@ -43,10 +43,10 @@ html {
 }
 body {
 	margin: 0;
-	width: calc(105% + 40px);
+	width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
-	
+	height: 110%;
 }
 p {
 	color: white;
