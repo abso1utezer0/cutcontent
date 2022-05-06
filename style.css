@@ -45,6 +45,7 @@ body {
 	margin: 0;
 	max-width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 p {
 	color: white;
