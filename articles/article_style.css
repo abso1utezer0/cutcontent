@@ -184,6 +184,11 @@ sup a:hover {
 	position: absolute;
 	top: 40vh;
 	right: calc(2.5vw + 100px);
+	border: 10px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-image-source: linear-gradient(to bottom right, #7921a0, #155d91);
+    box-shadow: 0 0 15px black;
 }
 .infoh3 {
 	line-height: 40px;
