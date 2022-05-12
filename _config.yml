@@ -1,1 +1,5 @@
 theme: jekyll-theme-midnight
+date_format: "%B %-d, %Y %I:%M %p %Z"
+timezone: America/Chicago
+title: Cut Content
+description: Cut Content is a website meant to showcase the development of video games, specifically things that were cut from the final game.

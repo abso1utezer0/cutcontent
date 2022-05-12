@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		{% include head.html %}
+	</head>
+
+	<body>
+        <div id="topofpage"></div>
+		<!-- Navbar Start -->
+		
+    {% include nav.html %}
+    
+		<br>
+		
+		<!-- Navbar End-->
+		
+		
+		<!-- Page Start -->
+        
+    <div id="articlepagecontainer">
+            {{ content }}
+      
+      {% for doc in doclist %}
+        {% if doc.url contains "/news/posts/" %}
+		  <div class="box3innerbox homeinnerbox">
+		  <center>
+		  	  <a href="{{ site.baseurl }}{{ doc.url }}">
+			  <p>{{ doc.title }} - {{ doc.author }} {{ doc.date }}</p>
+			  </a>
+		  </center>
+		  </div>
+	{% endif %}
+        {% endfor %}
+    </div>
+		
+		<!-- Page End -->
+		
+		
+		<!-- Footer Start-->
+        
+		{% include foot.html %}
+		
+		<!-- Footer End -->
+	</body>
+</html>
