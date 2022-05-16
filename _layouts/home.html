@@ -46,6 +46,7 @@
 		</td>
       <td style="vertical-align: top"><center><h2>Recent News</h2></center>
 		  <hr>
+	{% assign doclist = site.pages | sort: 'url'  %}
 	{% for doc in doclist limit:3 %}
         {% if doc.url contains "/news/posts/" %}
 		  <div class="box3innerbox homeinnerbox">
