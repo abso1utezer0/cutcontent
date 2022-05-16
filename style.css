@@ -405,6 +405,9 @@ button {
 .box2_home a{
 	color: white;
 }
+#textwrapper {
+  margin-left: 20px;
+  margin-right: 20px;
 
 /* MARKDOWN BEGIN (ALL BELOW SHOULD START WITH .markdown !!!) */
 .markdown * {
