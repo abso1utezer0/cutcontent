@@ -70,6 +70,7 @@
   padding-right: 5vw;
   width: 100vw;
   hyphens: auto;
+  overflow-x: hidden;
 }
 .articlepagetitle {
     margin-left: 5vw;
