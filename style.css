@@ -44,7 +44,7 @@ body {
 	width: 100vw;
 	height: 100%;
 	margin-bottom: 40vh;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 p {
 	color: white;
