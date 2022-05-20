@@ -2,10 +2,10 @@
 	position: sticky;
 	top: 0;
 	z-index: 90;
-	width: calc(100% - 1.5vw);
+	width: calc(100% - 0.75vw);
 }
 .banner_back {
-	width: calc(100% - 1.5vw);
+	width: calc(100% - 0.75vw);
 	position: sticky;
 	top: 0;
 	margin: 0;
