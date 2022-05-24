@@ -11,11 +11,11 @@ infoimgalt: Epic Mickey concept art
 infotext: Epic Mickey is a platformer released exclusively on the Nintendo Wii. The game follows Mickey Mouse as he is dragged into a world of forgotten Disney characters, the Wasteland. He must defeat the Phantom Blot and escape Wasteland with the magic brush he stole from Yen Sid.
 page1title: GameInformer Demo
 page1link: gidemo.html
-page1imagelink: https://static.wikia.nocookie.net/epicmickey/images/a/ac/25su1zt.jpg/revision/latest/scale-to-width-down/600?cb=20110913011045
+page1imagelink: https://user-images.githubusercontent.com/83473579/170041003-e52ac9fe-9d87-4232-a8f4-a9c0b4320ff7.png
 page1imagealt: Epic Mickey GameInformer demo screenshot
 page2title: Beta/Alpha
 page2link: betaalpha.html
-page2imagelink: https://static.wikia.nocookie.net/epicmickey/images/e/e1/Train_Station_beta.png/revision/latest?cb=20201214224626
+page2imagelink: https://user-images.githubusercontent.com/83473579/170040878-4e04ccce-a6a2-4fde-9256-98d7fa29e63c.png
 page2imagealt: Epic Mickey beta screenshot
 page3title: Development
 page2link: dev.html
