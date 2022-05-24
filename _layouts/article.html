@@ -16,7 +16,9 @@
 		
 		
 		<!-- Page Start -->
-		
+		{% if page.subarticle === 'true' %}
+		<a href="index.html">⬅ Go back</a>
+		{% endif %}
 		<!-- title + hr -->
         <h1 class="articlepagetitle">{{ page.title }}</h1>
         <hr class="articlepagehr">
