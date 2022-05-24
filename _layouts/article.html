@@ -16,7 +16,7 @@
 		
 		
 		<!-- Page Start -->
-		{% if page.subarticle == 'true' %}
+		{% if page.subarticle %}
 		<a href="index.html">⬅ Go back</a>
 		{% endif %}
 		<!-- title + hr -->
@@ -24,6 +24,7 @@
         <hr class="articlepagehr">
 		
 		<!-- info box -->
+		{% unless page.subarticle %}
 		<div class="box3 nodecoration">
 			<h2 class="box3title textcentered">Info</h2>
 			<img src="{{ page.infoimgpath }}" alt="{{ page.infoimgalt }}" id="infoimg">
@@ -32,7 +33,7 @@
 			<br>Released: {{ page.released }}</h3>
 			<p class="infoboxtext">{{ page.infotext }}</p>
 		</div>
-		
+		{% endunless %}
 		<!-- pages box -->
     {% if page.page1title %}
         <div class="box3 nodecoration">
