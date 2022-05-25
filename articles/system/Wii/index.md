@@ -8,6 +8,7 @@ title: Wii
 <div>
 {% for doc in doclist %}
 {% if doc.url contains 'articles/system/Wii/' and doc.layout == 'article' %}
+{% if doc.subarticle %}{% else %}
 <a href="{{ site.baseurl }}{{ doc.url }}" style="text-decoration: none">
      <div class="game box1 shadow1">
 				<img class="coverart" src="/media/boxarts/{{ doc.system }}/{{ doc.ogtitle }}.png" alt="{{ doc.title }} coverart">
@@ -17,6 +18,7 @@ title: Wii
 				<p class="gametext">Released: {{ doc.released }}</p>
      </div>
 </a>
+{% endif %}
 {% endif %}
 {% endfor %}
 </div>
