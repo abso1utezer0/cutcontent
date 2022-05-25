@@ -6,7 +6,9 @@ title: Wii
 # Articles
 {% assign doclist = site.pages | sort: 'url'  %}
 <div>
-{% for page in site.docs %}
+{% for doc in doclist %}
+{% if doc.url contains 'articles/system/Wii/' %}
+{% unless doc.url == '/articles/system/Wii/' %}
 <a href="{{ site.baseurl }}{{ doc.url }}" style="text-decoration: none">
      <div class="game box1 shadow1">
 				<img class="coverart" src="/media/boxarts/{{ doc.system }}/{{ doc.ogtitle }}.png" alt="{{ doc.title }} coverart">
@@ -16,5 +18,7 @@ title: Wii
 				<p class="gametext">Released: {{ doc.released }}</p>
      </div>
 </a>
+{% endunless %}
+{% endif}
 {% endfor %}
 </div>
