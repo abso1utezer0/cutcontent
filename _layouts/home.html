@@ -54,7 +54,7 @@
 		  <hr>
 	{% assign doclist = site.pages | sort: 'url'  %}
 	{% for doc in doclist limit:3 %}
-        {% if doc.url contains "/news/posts/" %}
+        {% if doc.url contains "news/posts/" %}
 		  <div class="box3innerbox homeinnerbox">
 		  <center>
 		  	  <a href="{{ site.baseurl }}{{ doc.url }}">
