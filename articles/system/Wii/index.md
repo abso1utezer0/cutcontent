@@ -17,7 +17,6 @@ title: Wii
 				<p class="gametext">Released: {{ doc.released }}</p>
      </div>
 </a>
-{% endunless %}
 {% endif %}
 {% endfor %}
 </div>
