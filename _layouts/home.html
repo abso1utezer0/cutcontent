@@ -39,6 +39,7 @@
 	{% assign doclist = site.pages | sort: 'url'  %}
         {% for doc in doclist limit:3 %}
         {% if doc.url contains 'articles/system' %}
+	{% if doc.layout == 'article' %}
         <div class="box3innerbox homeinnerbox">
 		    <center>
         <a href="{{ site.baseurl }}{{ doc.url }}">
@@ -47,6 +48,7 @@
 			  </a>
 		    </center>
 		    </div>
+	{% endif %}
         {% endif %}
         {% endfor %}
 		</td>
