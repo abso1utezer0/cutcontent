@@ -19,6 +19,6 @@ title: Wii
      </div>
 </a>
 {% endunless %}
-{% endif}
+{% endif %}
 {% endfor %}
 </div>
