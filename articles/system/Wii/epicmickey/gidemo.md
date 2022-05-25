@@ -4,7 +4,7 @@ subarticle: true
 title: GameInformer Demo
 ---
 
-# GameInformer Demo
+# GameInformer Magazine
 
 In fall of 2009, Epic Mickey was officially revealed to the world via a special issue of GameInformer magazine. The issue provided an early look into the game with various screenshots and a summary of the demo's story. Most, if not all, of the GameInformer demo's style and story was completely replaced by the time the final game was finished.
 
