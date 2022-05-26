@@ -50,7 +50,7 @@ In the files of the second game, the source texture for the first game's Dropwin
 
 ## Missing Levels From Intro
 
-In the (intro for the first game)[https://www.youtube.com/watch?v=aKm4sebyaDI], mutiple areas can be seen that do not appear in the final game. These areas are also seen in promotional work, and oddly, are later completely gone in the second game. This is never explained by either the game or JPS.
+In the [intro for the first game](https://www.youtube.com/watch?v=aKm4sebyaDI), mutiple areas can be seen that do not appear in the final game. These areas are also seen in promotional work, and oddly, are later completely gone in the second game. This is never explained by either the game or JPS.
 
 ### Beanstalk Factory
 
@@ -156,12 +156,10 @@ Two sketches remain unused in the final game and have (a very small amount of) l
 
 A sketch that would have lifted Mickey into the air. A simple video demonstration that was made by a developer can be found in the files and uploaded on a [YouTube page](https://youtu.be/E_mP0JQAEyk).
 
-{% include image.html src='https://user-images.githubusercontent.com/83473579/170403409-4a8df12f-6ddf-4aff-89db-1e6227bdc36c.png' atr='full' alt='Balloon HUD icon' %}
-
-{% include image.html src='https://media.discordapp.net/attachments/812861974446473276/915467556138147911/frames.gif' atr='full' alt='Balloon HUD icon 2' %}
+{% include image.html src='https://media.discordapp.net/attachments/812861974446473276/915467556138147911/frames.gif' atr='floatright' alt='Balloon HUD icon' %}
 
 ## Fireworks
 
 A sketch that would have fired fireworks at enemies and objects. A video for this sketch also exists and can be found [here](https://youtu.be/jGHVBqahJzI)
 
-{% include image.html src='https://user-images.githubusercontent.com/83473579/170403696-37154b55-ee82-47de-8ef1-a5cdbae57864.png' atr='full' alt='Firework HUD icon' %}
+{% include image.html src='https://media.discordapp.net/attachments/812861974446473276/915467556356239400/frames.gif' atr='floatleft' alt='Firework HUD icon' %}
