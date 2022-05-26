@@ -10,6 +10,14 @@ In fall of 2009, Epic Mickey was officially revealed to the world via a special 
 
 ## Story
 
+### Intro/Lab
+
+The story in the demo was quite different than the final game. After Mickey gets pulled into Wasteland by a now red-eyed Phantom Blot, he is taken to the Mad Doctor's Lab and has experiments run on him. Mickey is saved by Oswald, who gets embarrassed and promptly escapes without explaination. Mickey breaks Gremlin Gus out of his cage and  is told to help the other two gremlins in the lab escape (though the player can decide not to and  leave them behind if they want. Mickey then escapes the lab.
+
+### Islands
+
+Mickey goes through a path and finds himself at the floating islands of Gremlin Village. He is greeted by the head of Animatronic Donald and told to rescue gremlins to get a projector fixed. Donald also requests Mickey to find the rest of the parts to his body, and the player can choose to do so or sell the parts to Gremlin Sug for increased health. Mickey must travel through the islands which are connected by bridges (scrapper route) or cannons (hero route). After traveling through four islands, Mickey faces off with Pete in a colosseum. Pete is driving a zeppelin that resembles a dragon, and shoots enemies and other items at Mickey. Mickey must either shoot gremlins through cannons at Pete and the ship or shoot himself through it. After Pete is defeated, a comedic cutscene plays and the demo ends.
+
 ## Gameplay
 
 ### Cut Abilities
