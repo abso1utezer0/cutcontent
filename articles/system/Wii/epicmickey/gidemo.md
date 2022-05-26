@@ -33,7 +33,7 @@ Pete was planned to be a villain in the game and a comedic relief character, how
 
 ## Screenshots
 
-{% include image.html src='https://static.wikia.nocookie.net/epicmickey/images/a/ac/25su1zt.jpg/revision/latest?cb=20110913011045' atr='full' alt='Mickey infront of the zepplin' %}
+{% include image.html src='https://user-images.githubusercontent.com/83473579/170492057-e89d32d7-1349-4d0d-8d1a-25f4625c7501.png' atr='full' alt='Mickey infront of the zepplin' %}
 
 {% include image.html src='https://user-images.githubusercontent.com/83473579/170489411-594d1f31-cab5-4e26-85a1-7a977d3020a6.png' atr='full' alt='Mickey at an unknown location' %}
 
