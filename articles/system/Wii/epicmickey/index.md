@@ -145,9 +145,9 @@ If you go to an  out of bounds location in Tortooga, Gus will simply say "Dead m
 
 ## Pirate Pete Door
 
-As mentioned earlier, Pirate Pete is mentioned in unused dialog in a developer configuration file. The file reads as the following:
+As said earlier, Pirate Pete is mentioned in unused dialog in a developer configuration file. The file reads as the following:
 
-"If you defeat Pirate Pete, I will open this door for you!"
+*"If you defeat Pirate Pete, I will open this door for you!"*
 
 # UI
 
@@ -160,8 +160,6 @@ One, the dev level loader, was meant to be used in development to very quickly l
 {% include image.html src='https://user-images.githubusercontent.com/83473579/170411805-2e6cbbe1-cd5b-4d95-aedd-a0d9ffd4d4c7.png' atr='full' alt='dev level loader' %}
 
 Another, the custom level loader, was meant to be used at events like E3 or public demos where people could try out the game. When enabled, it overrides the "Start Game", "Extras" and "Options" buttons with a list of levels for the user to play. The levels that are available in the menu can be altered with the developer configuration file.
-
-(insert custom level menu screenshot)
 
 ## Hidden Icons in HUD File
 
