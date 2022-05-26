@@ -13,6 +13,10 @@ page1title: GameInformer Demo
 page1link: gidemo.html
 page1imagelink: https://user-images.githubusercontent.com/83473579/170041003-e52ac9fe-9d87-4232-a8f4-a9c0b4320ff7.png
 page1imagealt: Epic Mickey GameInformer demo screenshot
+disclaimer:
+---
+
+<!--
 page2title: Beta/Alpha
 page2link: betaalpha.html
 page2imagelink: https://user-images.githubusercontent.com/83473579/170040878-4e04ccce-a6a2-4fde-9256-98d7fa29e63c.png
@@ -21,8 +25,7 @@ page3title: Development
 page2link: dev.html
 page3imagelink: https://i.imgur.com/KEUNagS.png
 page3imagealt: Gamebryo Engine AssetViewer screenshot
-disclaimer:
----
+-->
 
 Epic Mickey had a long and interesting development with different stages of development and artstyles that were drastically different from eachother. This page will cover things that were for the final stage of development. For the other stages of development, check out their respective pages.
 
