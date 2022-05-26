@@ -173,9 +173,13 @@ An unused menu file shows a very early looking vending machine with the artstyle
 Two sketches remain unused in the final game and have (a very small amount of) leftovers in the game files.
 
 ## Balloon
-{% include image.html src='https://media.discordapp.net/attachments/812861974446473276/915467556138147911/frames.gif' atr='floatright' alt='Balloon HUD icon' %}
+
 A sketch that would have lifted Mickey into the air. A simple video demonstration that was made by a developer can be found in the files and uploaded on a [YouTube page](https://youtu.be/E_mP0JQAEyk).
 
+{% include image.html src='https://media.discordapp.net/attachments/812861974446473276/915467556138147911/frames.gif' atr='full' alt='Balloon HUD icon' %}
+
 ## Fireworks
-{% include image.html src='https://media.discordapp.net/attachments/812861974446473276/915467556356239400/frames.gif' atr='floatleft' alt='Firework HUD icon' %}
+
 A sketch that would have fired fireworks at enemies and objects. A video for this sketch also exists and can be found [here](https://youtu.be/jGHVBqahJzI).
+
+{% include image.html src='https://media.discordapp.net/attachments/812861974446473276/915467556356239400/frames.gif' atr='full' alt='Firework HUD icon' %}
