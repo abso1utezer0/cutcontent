@@ -123,9 +123,13 @@ An area without lighting that contains a flat plane of grass with a single hut p
 
 An untextured, dark, broken mess of a 2D level. It is assumed that this was supposed to be played at the Penny Arcade as some sort of minigame. It is likely that either the assets originally meant for the level are missing from the files or the level barely started development and got canned due to a lack of remaining time in the project.
 
+{% include image.html src='https://user-images.githubusercontent.com/83473579/170493581-bfa035ef-2fed-4157-94de-cdd179745376.png' atr='full' alt='Mickey Arcade' %}
+
 ### Building Standards
 
 An unlit space that contains tests for the maximum height a ramp can go before not allowing Mickey to walk on it. When first entering the space, a simple camera panning cutscene plays, though it is unknown if the cutscene was just for a test or the area was meant to be an actual level in the final game.
+
+{% include image.html src='https://user-images.githubusercontent.com/83473579/170493819-747b2f29-a50c-4716-a82c-bafaf97c0ab0.png' atr='full' alt='Building standards' %}
 
 ### Wal-Mart White Room (Japan Only)
 
