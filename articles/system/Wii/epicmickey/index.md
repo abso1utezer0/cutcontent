@@ -27,7 +27,7 @@ page3imagelink: https://i.imgur.com/KEUNagS.png
 page3imagealt: Gamebryo Engine AssetViewer screenshot
 -->
 
-Epic Mickey had a long and interesting development with different stages of development and artstyles that were drastically different from eachother. This page will cover things that were for the final stage of development. For the other stages of development, check out their respective pages.
+Epic Mickey had a long and interesting development with different stages and artstyles that drastically differed from eachother. This page will cover things that were for the final stage of development. For the other stages of development, check out their respective pages.
 
 # Characters
 
@@ -69,7 +69,7 @@ This level was barely started and only had blockouts done for it.
 
 ## Test Levels
 
-Epic Mickey features a good list of levels meant for testing out features or bugs that were left over in the game. Many (*many*) more test levels exist than what is in the final game, but sadly no one has access to them. A full list of known test levels can be found in the [dev](Development/Configuration page). 
+Epic Mickey features a good list of levels meant for testing out features or bugs that were left over in the game. Many (*many*) more test levels exist than what is in the final game, but sadly no one has access to them. A full list of known test levels can be found in the [Development/Configuration page](dev). 
 
 ### AVA Particles
 
